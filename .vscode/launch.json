@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Usuario/Desktop/Facu/Ing. en Sistemas/1º/Algoritmos y Estructuras de Datos/Ejercicios/e2",
-      "program": "c:/Users/Usuario/Desktop/Facu/Ing. en Sistemas/1º/Algoritmos y Estructuras de Datos/Ejercicios/e2/build/Debug/outDebug",
+      "cwd": "c:/Users/Usuario/Desktop/Facu/Ing. en Sistemas/1º/Algoritmos y Estructuras de Datos/Ejercicios/e2/ej-geom",
+      "program": "c:/Users/Usuario/Desktop/Facu/Ing. en Sistemas/1º/Algoritmos y Estructuras de Datos/Ejercicios/e2/ej-geom/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
