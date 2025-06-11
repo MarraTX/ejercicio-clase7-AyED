@@ -82,7 +82,7 @@ HACER:
         IMPRIMIR: "NIVEL: ", nivel
         IMPRIMIR: "¿Hubo encuestas para este nivel? (S/N)"
         LEER: Rta
-        Si (Rta = "S" O Rta = "s") Entonces
+        REPETIR MIENTRAS (Rta = "S" O Rta = "s")
             HACER
                 IMPRIMIR: "Ingrese el numero del estado de desayuno (1: Nada, 2: Poco, 3: Suficiente): "
                 LEER: RtaCaso
@@ -104,9 +104,9 @@ HACER:
                 IMPRIMIR: "¿Hay otra encuesta para este nivel? (S/N)"
                 LEER: Rta
             FIN HACER
-        Fin Si
+        FIN REPETIR MIENTRAS
         
-        acumNadaDesayuno = acumNadaDesayuno + cantNadaDesayuno
+        acumNadaDesayuno = acumNadaDesayuno + cantNadaDesayuno  
         acumPocoDesayuno = acumPocoDesayuno + cantPocoDesayuno
         acumSufiDesayuno = acumSufiDesayuno + cantSufiDesayuno
         acumNadaCena = acumNadaCena + cantNadaCena
